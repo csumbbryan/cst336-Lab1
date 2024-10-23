@@ -1,0 +1,105 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color:#efefef;
+  color:black;
+  font-family: "Arial";
+
+}
+
+main, footer {
+  text-align: left;
+}
+
+header, nav {
+  text-align: center;
+}
+
+nav a {
+  padding:15px;
+  padding-bottom:4px;
+  font-size:1.8em;
+  text-decoration: none;
+  color: #303030;
+}
+
+nav a.current {
+  color: #064666;
+  font-size: 2.2em;
+}
+
+nav a:hover { /*psuedo class*/
+  border-bottom:2px #1a7aaa solid;
+  font-size: 2em;
+  transition: .9s /*transition effect */
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 4em;
+  margin-bottom: 0px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-size: .9em;
+  color: #606060;
+}
+
+div.body {
+  margin: 20px auto;
+  text-align: left;
+}
+
+div.ex1 {
+  padding: 2px;
+}
+
+div.ex2 {
+  padding: 20px;
+}
+
+div.ex3 {
+  padding: 10px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 2em;
+  border-top: 1px gray solid;
+}
+
+table {
+  margin: 0px auto;
+}
+
+td {
+  padding-right: 10px;
+  padding-left: 4px;
+  font-size: 1.3em;
+}
+
+td strong {
+  color: lightgray;
+}
+
+#table-header {
+  background-color: #203444;
+}
+
+.table-row {
+  background-color: #527888;
+  color: lightgray;
+}
+
+.hobby {
+  color: #527888;
+}
+
